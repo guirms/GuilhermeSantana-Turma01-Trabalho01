@@ -73,6 +73,10 @@ class Banco {
             .filter(transacao => transacao.tipo === 'Depósito')
             .reduce((total, transacao) => total + transacao.valor, 0);
     }
+
+    teste() {
+        return [1, 2, 3]
+    }
 }
 
 // Exportando a classe para ser usada em outros arquivos ou em testes
