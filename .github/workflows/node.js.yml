@@ -32,4 +32,4 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
-          SONAR_TOKEN: 'aa'
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
