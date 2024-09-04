@@ -16,7 +16,7 @@ describe('Testes da classe Banco', () => {
         expect(() => {
             conta.sacar(30);
         }).toThrow('Saldo insuficiente');
-    });
+    });    
 
     test('Deve sacar dinheiro corretamente', () => {        
         conta.sacar(10.5);
