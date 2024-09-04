@@ -91,4 +91,9 @@ describe('Testes da classe Banco', () => {
 
         expect(conta.obterTotalDepositado()).toBe(60);
     });
+
+    // toStrictEqual numeros
+    // toBeDefined se nao é undefined
+    // toBeTruthy se é verdadeiro
+    // toEqual se (a lista) é igual
 });
